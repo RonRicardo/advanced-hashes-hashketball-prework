@@ -6,7 +6,8 @@ game_hash = {
     :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
       :players => {
-        "Alan Anderson" => {:number => 0,
+        "Alan Anderson" => {
+          :number => 0,
           :shoe => 16,
           :points => 22,
           :rebounds => 12,
@@ -15,7 +16,8 @@ game_hash = {
           :blocks => 1,
           :slam_dunks => 1
         },
-        "Reggie Evans" => {:number => 30,
+        "Reggie Evans" => {
+          :number => 30,
           :shoe => 14,
           :points => 12,
           :rebounds => 12,
@@ -24,7 +26,8 @@ game_hash = {
           :blocks => 12,
           :slam_dunks => 7
         },
-        "Brook Lopez" => {:number => 11,
+        "Brook Lopez" => {
+          :number => 11,
           :shoe => 17,
           :points => 17,
           :rebounds => 19,
@@ -33,7 +36,8 @@ game_hash = {
           :blocks => 1,
           :slam_dunks => 15
         },
-        "Mason Plumlee" => {:number => 1,
+        "Mason Plumlee" => {
+          :number => 1,
           :shoe => 19,
           :points => 26,
           :rebounds => 12,
@@ -42,7 +46,8 @@ game_hash = {
           :blocks => 8,
           :slam_dunks => 5
         },
-        "Jason Terry" => {:number => 31,
+        "Jason Terry" => {
+          :number => 31,
           :shoe => 15,
           :points => 19,
           :rebounds => 2,
@@ -58,7 +63,8 @@ game_hash = {
       :team_name => "Charlotte Hornets",
       :colors => ["Turquoise", "Purple"],
       :players => {
-        "Jeff Adrien" => {:number => 4,
+        "Jeff Adrien" => {
+          :number => 4,
           :shoe => 18,
           :points => 10,
           :rebounds => 1,
@@ -67,7 +73,8 @@ game_hash = {
           :blocks => 7,
           :slam_dunks => 2
         },
-        "Bismak Biyombo" => {:number => 0,
+        "Bismak Biyombo" => {
+          :number => 0,
           :shoe => 16,
           :points => 12,
           :rebounds => 4,
@@ -127,6 +134,11 @@ end
 #good_practices
 
 
-def num_points_scored(player)
-  
+def num_points_scored(player_name)
+  game_hash.each do |location, team_data|
+    team_data.each do |players|
+      puts player_name
+
+    end
+  end
 end
