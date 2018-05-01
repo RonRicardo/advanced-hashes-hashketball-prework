@@ -1,7 +1,7 @@
 require "pry"
 
 def game_hash
-game_hash = {
+game_hash = 
   :home => {:team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
       :players => {
@@ -126,6 +126,5 @@ good_practices
 
 
 def num_points_scored(player)
-  
-end
 
+end
