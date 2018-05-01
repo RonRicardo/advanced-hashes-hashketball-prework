@@ -2,7 +2,8 @@ require "pry"
 
 def game_hash
 game_hash = {
-  :home => {:team_name => "Brooklyn Nets",
+  :home => {
+    :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
       :players => {
         "Alan Anderson" => {:number => 0,
@@ -53,7 +54,8 @@ game_hash = {
       },
     },
 
-    :away => {:team_name => "Charlotte Hornets",
+    :away => {
+      :team_name => "Charlotte Hornets",
       :colors => ["Turquoise", "Purple"],
       :players => {
         "Jeff Adrien" => {:number => 4,
@@ -126,5 +128,5 @@ end
 
 
 def num_points_scored(player)
-
+  
 end
