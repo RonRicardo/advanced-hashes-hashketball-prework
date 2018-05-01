@@ -131,14 +131,11 @@ def good_practices
   end
 end
 
-#good_practices
+good_practices
 
 
 def num_points_scored(player_name)
   game_hash.each do |location, team_data|
-    team_data.each do |players|
-      puts player_name
 
     end
-  end
 end
